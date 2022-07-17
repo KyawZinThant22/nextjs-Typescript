@@ -12,7 +12,7 @@ type Props = {
   meta?: Meta;
 };
 
-const AppHead: React.FC<Props> = ({ title, meta }) => {
+const AppHeader: React.FC<Props> = ({ title, meta }) => {
   let author = "Kyaw Zin Thant";
   let description =
     "Articles about programming, coding, technologies, software engineering, my personal projects and my experiences.";
@@ -38,4 +38,4 @@ const AppHead: React.FC<Props> = ({ title, meta }) => {
   );
 };
 
-export default AppHead;
+export default AppHeader;
