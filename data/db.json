@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "How to learn NEXTjs",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    },
+
+    {
+      "id": 2,
+      "title": "How to learn React",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    },
+    {
+      "id": 3,
+      "title": "How to learn Javascript",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    },
+    {
+      "id": 4,
+      "title": "How to learn Web design",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    },
+    {
+      "id": 5,
+      "title": "How to learn to get gf",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    },
+
+    {
+      "id": 6,
+      "title": "How to learn to get bf",
+      "author": "Kyaw Zin Thant",
+      "body": "Ninja Ipsum' is a sexy 'Lorem Ipsum' meant exclusively for Ninjas.It's the stealthiest Dummy Text in the world.In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."
+    }
+  ]
+}

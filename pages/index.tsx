@@ -12,15 +12,36 @@ export const meta = {
   siteName: "KyawZinThant",
 };
 
-const Home: NextPage = () => {
+export interface Property {
+  id: Number;
+  title: string;
+  author: string;
+  body: string;
+}
+
+ interface Props {
+  posts: Property[]
+}
+
+const Home: NextPage<Props> = ({ posts }) => {
+  console.log(posts);
   return (
     <>
       <AppHeader title="Kyaw Zin Thant - A Frontend Developer" meta={meta} />
-        <Layout>
-          <Blog/>
-        </Layout>
+      <Layout>
+        <Blog posts={posts} />
+      </Layout>
     </>
   );
 };
 
 export default Home;
+
+export async function getStaticProps() {
+  const Posts = await fetch("http://localhost:8000/posts");
+  const posts = await Posts.json();
+
+  return {
+    props: { posts },
+  };
+}

@@ -1,11 +1,18 @@
+import { Property } from "pages";
+import BlogCard from "./BlogCard";
 
-
-const Blog : React.FC = () => {
-    return (
-        <div>
-
-        </div>
-    )
+interface Props {
+  posts: Property[];
 }
+
+const Blog: React.FC<Props> = ({ posts }) => {
+  return (
+    <div className="container mx-auto mt-12 flex gap-6  justify-evenly flex-wrap">
+      {posts.map((post) => (
+          <BlogCard post={post} />
+      ))}
+    </div>
+  );
+};
 
 export default Blog;
