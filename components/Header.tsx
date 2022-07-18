@@ -16,13 +16,13 @@ const Header: React.FC = () => {
     <div className="border-y mt-[1px] border-solid">
       <div className=" p-4  container mx-auto flex justify-between items-center    ">
         <Link href="/">
-          <a className="text-white text-3xl font-bold">
+          <a className="text-white text-2xl font-bold">
             Kyaw Zin Thant <span className="text-green-500 text-2xl">.dev</span>
           </a>
         </Link>
         <div className="flex gap-4">
           {navlinks.map((link) => (
-            <li key={link.url} className="list-none">
+            <li key={link.url} className="list-none" >
               <Link href={link.url}>
                 <a className="text-green-500 text-xl hover:text-white">{link.text}</a>
               </Link>

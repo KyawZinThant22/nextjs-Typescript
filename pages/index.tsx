@@ -13,7 +13,7 @@ export const meta = {
 };
 
 export interface Property {
-  id: Number;
+  id: string;
   title: string;
   author: string;
   body: string;
